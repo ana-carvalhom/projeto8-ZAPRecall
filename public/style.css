@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    max-width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: blue;
+}
+
+.telaInicial{
+    background-color: FB6B6B;
+}
