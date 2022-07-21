@@ -2,8 +2,8 @@ import Iniciar from "./Iniciar";
 
 function App(){
     return (
-        <div>
-            {<Iniciar />}
+        <div className="container">
+            <Iniciar />
         </div>
     );
 }

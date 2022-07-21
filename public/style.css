@@ -1,4 +1,4 @@
-body{
+.container{
     width: 100%;
     max-width: 935px;
     display: flex;
@@ -9,5 +9,5 @@ body{
 }
 
 .telaInicial{
-    background-color: FB6B6B;
+    background-color: #FB6B6B;
 }
