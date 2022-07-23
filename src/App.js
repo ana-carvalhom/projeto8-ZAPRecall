@@ -3,8 +3,8 @@ import TelaPerguntas from "./telaPerguntas";
 
 function App(){
     return (
-        <div className="container">
-            <Iniciar />
+        <div>
+            {/* <Iniciar /> */}
             <TelaPerguntas />
         </div>
     );

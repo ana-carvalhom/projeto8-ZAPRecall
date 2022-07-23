@@ -6,10 +6,10 @@ function TelaPerguntas(){
         <Header />
 
         <div className="content">
-        <div className="pergunta">
-            <p>Pergunta 1</p>
+        <ul className="pergunta">
+            <li>Pergunta 1</li>
             <img src="./imgs/seta.svg" alt="botão seta" />
-        </div>
+        </ul>
         <div className="pergunta selecionada">
             <p>O que é JSX?</p>
             <img src="./imgs/Vector.svg" alt="botão virar carta" />
@@ -26,6 +26,11 @@ function TelaPerguntas(){
                 <p>Zap!</p>
             </div>
         </div>
+        <div className="resposta naoLembrei">
+            <p>Pergunta 1</p>
+            <img src="./imgs/naolembrei.svg" alt="x vermelho" />
+        </div>
+        
         </div>
 
         </div>
