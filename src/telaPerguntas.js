@@ -26,7 +26,7 @@ function TelaPerguntas(){
                 <p>Zap!</p>
             </div>
         </div>
-        <div className="resposta naoLembrei">
+        <div className="pergunta naoLembrei">
             <p>Pergunta 1</p>
             <img src="./imgs/naolembrei.svg" alt="x vermelho" />
         </div>
