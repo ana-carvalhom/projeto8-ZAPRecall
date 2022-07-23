@@ -10,12 +10,17 @@ function TelaPerguntas(){
             <li>Pergunta 1</li>
             <img src="./imgs/seta.svg" alt="botão seta" />
         </ul>
-        <div className="pergunta selecionada">
-            <p>O que é JSX?</p>
-            <img src="./imgs/Vector.svg" alt="botão virar carta" />
-        </div>
+        <ul className="pergunta selecionada">
+            <li>O que é JSX?</li>
+            <div className="botaoVetor">
+            <img src="./imgs/Vector.svg" alt="botão virar carta"/>
+            </div>
+            </ul>
+
+            
         <div className="pergunta aberta">
             <p>JSX é uma sintaxe para escrever HTML dentro do JS</p>
+            <div className="opcoes">
             <div className="botao vermelho">
                 <p>Não lembrei</p>
             </div>
@@ -24,6 +29,7 @@ function TelaPerguntas(){
             </div>
             <div className="botao verde">
                 <p>Zap!</p>
+            </div>
             </div>
         </div>
         <div className="pergunta naoLembrei">
