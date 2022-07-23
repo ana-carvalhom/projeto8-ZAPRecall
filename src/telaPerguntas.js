@@ -1,23 +1,16 @@
 import Header from "./header";
 import Footer from "./Footer";
+import PerguntasSelecionadas from "./PerguntasSelecionadas";
+import Perguntas from "./Perguntas";
 
 function TelaPerguntas(){
 
-    const perguntas = ['Pergunta 1', 'Pergunta 2', 'Pergunta 3', 'Pergunta 4'];
-
-    return (
+      return (
         <div className="TelaPerguntas">
         <Header />
 
         <div className="content">
-        <ul className="perguntas">
-            
-
-            {perguntas.map(pergunta => <li className="pergunta">{pergunta}
-            <img src="./imgs/seta.svg" alt="botão seta" /></li>)}
-            
-            
-        </ul>
+       <PerguntasSelecionadas />
        
         </div>
         <Footer />
