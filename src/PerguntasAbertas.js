@@ -1,7 +1,8 @@
 function PerguntasAbertas(){
+    const respostas = ['JSX é uma sintaxe para escrever HTML dentro do JS', 'Resposta 2', 'Resposta 3', 'Resposta 4']
     return (
-        <div className="pergunta aberta">
-        <p>JSX é uma sintaxe para escrever HTML dentro do JS</p>
+        <ul className="perguntas">
+        {respostas.map(resposta => <li className="pergunta aberta">{resposta}
         <div className="opcoes">
         <div className="botao vermelho">
             <p>Não lembrei</p>
@@ -13,7 +14,13 @@ function PerguntasAbertas(){
             <p>Zap!</p>
         </div>
         </div>
-    </div>
+        
+        
+        
+        </li>)}
+        
+       
+    </ul>
     );
 }
 
