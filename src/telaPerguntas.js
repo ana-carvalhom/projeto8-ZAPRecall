@@ -32,10 +32,10 @@ function TelaPerguntas(){
             </div>
             </div>
         </div>
-        <div className="pergunta naoLembrei">
-            <p>Pergunta 1</p>
+        <ul className="pergunta riscada naoLembrei">
+            <li>Pergunta 1</li>
             <img src="./imgs/naolembrei.svg" alt="x vermelho" />
-        </div>
+        </ul>
         
         </div>
 

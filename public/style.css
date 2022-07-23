@@ -101,7 +101,7 @@
 }
 
 .pergunta li{
-    margin-right: 163px;
+    margin-right: 100px;
     width: 300px;
 }
 
@@ -111,15 +111,9 @@
     }
 
 .selecionada img{
-
     margin-top: 105px;
    }
    
-
-   .selecionada img{
-
-    margin-top: 105px;
-   }
 
    .aberta {
     width: 299px;
@@ -166,4 +160,10 @@
     background: #2FBE34;
    }
 
-   
+   .riscada{
+    text-decoration: line-through;
+   }
+
+   .naoLembrei{
+    color: #FF3030;
+   }
