@@ -1,4 +1,5 @@
 import Header from "./header";
+import Footer from "./Footer";
 
 function TelaPerguntas(){
     return (
@@ -38,7 +39,7 @@ function TelaPerguntas(){
         </ul>
         
         </div>
-
+        <Footer />
         </div>
     )
 }
